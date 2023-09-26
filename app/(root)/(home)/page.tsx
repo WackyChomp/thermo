@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 export default function Home() {
   return (
     <div>
-      <div className="bg-yellow-300">
+      <div className="bg-yellow-300 pt-20">
         <h1 className='text-2xl underline'>Home Child 1</h1>
         <div className="flex p-3 space-x-3 flex-col">
           <Button className='bg-blue-400'>1-Click Me</Button>

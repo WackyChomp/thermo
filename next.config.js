@@ -18,6 +18,18 @@ module.exports = {
         port: '',
         pathname: '/media/10QZvWwBUQbpqE/giphy.gif',
       },
+      {
+        protocol: 'https',
+        hostname: 'img.icons8.com',
+        port: '',
+        pathname: '/ios/200/menu--v1.png',
+      },
+      // {
+      //   protocol: '',
+      //   hostname: '',
+      //   port: '',
+      //   pathname: '',
+      // },
     ],
   },
 }
