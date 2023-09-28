@@ -70,6 +70,14 @@
 }
  
 /* ---------------------------------------------------- */
+.nav-padding{ @apply pt-[100px] }
+
+.paddings { @apply sm:p-16 xs:p-8 px-6 py-12; }
+
+.heading1{ @apply text-[64px] leading-[67.2px] font-bold; }
+.heading2{ @apply text-[48px] leading-[50.4px] font-bold; }
+.heading3{ @apply text-[32px] leading-[40px] font-bold sm:leading-[33.6px] tracking-[-0.25%]; }
+.heading4{ @apply text-[20px] leading-[26px] font-semibold tracking-[-0.25%]; }
 
 .flex-between{ @apply flex justify-between items-center }
 .flex-center{ @apply flex justify-center items-center }
