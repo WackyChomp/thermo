@@ -34,6 +34,11 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        banner1: "url('https://i.pinimg.com/originals/4e/de/5a/4ede5a33c5490195b2b17466ad26d124.gif')",
+        banner2: "url('https://miro.medium.com/v2/resize:fit:1200/1*QHzHZjzk0ZNgujT6G7oSug.png')",
+        banner3: "url('https://wallpapers.com/images/hd4/80s-synthwave-aesthetic-cover-5uac1oe9a997n5g7.jpg')",
+        banner4: "url('https://media.tenor.com/i0nzuUl-6wQAAAAC/background.gif')",
+        banner5: "url('https://i.gifer.com/origin/19/195c4db0e36f6d3c0e331568b7c292ae_w200.gif')",
       },
       fontFamily: {
         roboto: ['roboto', 'sans-serif'],

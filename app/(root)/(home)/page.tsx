@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="flex-center mx-auto w-full max-w-screen-2xl flex-col pt-20">
         <section className="paddings w-full">
-          <div className="flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-black-400 bg-cover bg-center text-center">
+          <div className="flex-center relative min-h-[300px] w-full flex-col rounded-xl bg-black-400 bg-banner5 bg-cover bg-center text-center">
             <h1 className="sm:heading1 heading2 mb-6 text-center text-green-500">Thermo</h1>
           </div>
         </section>
