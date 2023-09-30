@@ -24,6 +24,12 @@ module.exports = {
         port: '',
         pathname: '/ios/200/menu--v1.png',
       },
+      {
+        protocol: 'https',
+        hostname: 'img.icons8.com',
+        port: '',
+        pathname: '/ios/500/search--v1.png'
+      },
       // {
       //   protocol: '',
       //   hostname: '',

@@ -5,8 +5,8 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <footer className='text-white-800'>
-      <div className="flex-between p-3 w-full gap-y-10 border-t-8 border-b-8 border-green-800 bg-black px-20 py-1 max-md:flex-col">
+    <footer className='text-white-800 border-t-8 border-b-8 border-green-800 bg-black px-20'>
+      <div className="flex-between p-3 w-full gap-y-10 py-1 max-md:flex-col">
         <p>copyright © 2023 Thermo | All Rights Reserved</p>
 
         <div className="flex gap-x-9">

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
+import SearchForm from '@/components/SearchForm'
 
 // This is the "Home" child that gets rendered in (root) layout.tsx
 
@@ -12,7 +13,12 @@ export default function Home() {
           <div className="flex-center relative min-h-[300px] w-full flex-col rounded-xl bg-black-400 bg-banner5 bg-cover bg-center text-center">
             <h1 className="sm:heading1 heading2 mb-6 text-center text-green-500">Thermo</h1>
           </div>
+
+          <SearchForm />
+
         </section>
+
+          Filters
       </div>
       
       <div className="paddings">
