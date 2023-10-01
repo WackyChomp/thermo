@@ -62,6 +62,7 @@ npm install @sanity/image-url @sanity/vision query-string sanity
   </ol>
 </details>
 
+
 ## Built With
 
 Here are some frameworks/libraries used in this project:
@@ -69,6 +70,27 @@ Here are some frameworks/libraries used in this project:
 * [![Tailwind][Tailwind.css]][Tailwind-url]
 * [![React][React.js]][React-url]
 * [![Next][Next.js]][Next-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+List of amazing resources and big credits to: 
+
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Font Awesome](https://fontawesome.com)
+* [Badge Shield](https://dev.to/envoy_/150-badges-for-github-pnk)
+<br><br>
+* [Shadcn/UI](https://ui.shadcn.com/) - component library made with Radix UI and Tailwind CSS
+* [Tailwind CSS](https://tailwindcss.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
