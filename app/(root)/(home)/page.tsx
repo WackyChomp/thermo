@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import SearchForm from '@/components/SearchForm'
+import Filters from '@/components/Filters'
 
 // This is the "Home" child that gets rendered in (root) layout.tsx
 
@@ -15,10 +16,10 @@ export default function Home() {
           </div>
 
           <SearchForm />
+          <Filters />
 
         </section>
 
-          Filters
       </div>
       
       <div className="paddings">

@@ -15,12 +15,12 @@ npm install @sanity/image-url @sanity/vision query-string sanity
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id='readme-top'>
-  <img src="https://i.makeagif.com/media/5-12-2016/8btHfN.gif" alt="Logo" width="300" height="10">
+  <img src="https://i.makeagif.com/media/5-12-2016/8btHfN.gif" alt="Logo" width="300" height="30">
 
   <h3 align="center">Thermo</h3>
 
   <p align="center">
-    Template optimized speed and SEO
+    Template optimized for speed and SEO
     <br />
     <a href="https://github.com/WackyChomp/thermo"><strong>Explore the docs »</strong></a>
     <br />
@@ -32,7 +32,7 @@ npm install @sanity/image-url @sanity/vision query-string sanity
     <a href="https://github.com/WackyChomp/thermo/issues">Request Feature</a>
   </p>
   
-  <img src="https://i.makeagif.com/media/5-12-2016/8btHfN.gif" alt="Logo" width="300" height="10">
+  <img src="https://i.makeagif.com/media/5-12-2016/8btHfN.gif" alt="Logo" width="300" height="30">
 </div>
 
 <br>
