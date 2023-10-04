@@ -16,7 +16,7 @@ npm create sanity@latest
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id='readme-top'>
-  <img src="https://i.makeagif.com/media/5-12-2016/8btHfN.gif" alt="Logo" width="300" height="30">
+  <img src="https://i.gifer.com/A48C.gif" alt="Logo" width="300" height="30">
 
   <h3 align="center">Thermo</h3>
 
@@ -33,7 +33,7 @@ npm create sanity@latest
     <a href="https://github.com/WackyChomp/thermo/issues">Request Feature</a>
   </p>
   
-  <img src="https://i.makeagif.com/media/5-12-2016/8btHfN.gif" alt="Logo" width="300" height="30">
+  <img src="https://i.gifer.com/A48C.gif" alt="Logo" width="300" height="30">
 </div>
 
 <br>
