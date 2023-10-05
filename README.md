@@ -75,6 +75,26 @@ Here are some frameworks/libraries used in this project:
 
 
 
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Create captivating Home page / Hero section
+- [ ] Connecting to Sanity CMS
+- [ ] Implement exporting downloadable content through Sanity
+- [ ] Finalize color scheme
+- [ ] Finalize logo
+- [ ] Deploy project
+    - [ ] 
+    - [ ] 
+
+See the [open issues](https://github.com/WackyChomp/thermo/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
