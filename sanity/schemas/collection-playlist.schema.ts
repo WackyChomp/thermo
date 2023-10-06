@@ -4,7 +4,7 @@ const schema = {
   name: 'collectionPlaylist',
   title: 'Collection Playlist',
   type: 'document',
-  field: [
+  fields: [
     {
       name: 'title',
       title: 'Title',

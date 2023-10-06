@@ -8,7 +8,7 @@ const schema = {
   name: 'collection',
   title: 'Collection',
   type: 'document',
-  field: [
+  fields: [
     {
       name: 'title',
       title: 'Title',
