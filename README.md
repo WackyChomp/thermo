@@ -16,7 +16,7 @@ npm create sanity@latest
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id='readme-top'>
-  <img src="https://i.gifer.com/A48C.gif" alt="Logo" width="300" height="30">
+  <img src="https://media.tenor.com/i0nzuUl-6wQAAAAC/background.gif" alt="Logo" width="300" height="100">
 
   <h3 align="center">Thermo</h3>
 
@@ -33,7 +33,7 @@ npm create sanity@latest
     <a href="https://github.com/WackyChomp/thermo/issues">Request Feature</a>
   </p>
   
-  <img src="https://i.gifer.com/A48C.gif" alt="Logo" width="300" height="30">
+  <img src="https://wallpapers.com/images/hd4/80s-synthwave-aesthetic-cover-5uac1oe9a997n5g7.jpg" alt="Logo" width="300" height="100">
 </div>
 
 <br>
@@ -81,7 +81,7 @@ Here are some frameworks/libraries used in this project:
 ## Roadmap
 
 - [ ] Create captivating Home page / Hero section
-- [ ] Connecting to Sanity CMS
+- [x] Connecting to Sanity CMS
 - [ ] Implement exporting downloadable content through Sanity
 - [ ] Finalize color scheme
 - [ ] Finalize logo
@@ -107,6 +107,7 @@ List of amazing resources and big credits to:
 <br><br>
 * [Shadcn/UI](https://ui.shadcn.com/) - component library made with Radix UI and Tailwind CSS
 * [Tailwind CSS](https://tailwindcss.com/)
+* [Sanity](https://www.sanity.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
