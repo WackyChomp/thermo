@@ -11,26 +11,32 @@ module.exports = {
       {
         protocol: 'https',
         hostname: 'media.tenor.com',
-        port: '',
         pathname: '/ZFoOuUSqPBEAAAAi/stalzone-meme.gif',
       },
       {
         protocol: 'https',
         hostname: 'media4.giphy.com',
-        port: '',
         pathname: '/media/10QZvWwBUQbpqE/giphy.gif',
       },
       {
         protocol: 'https',
         hostname: 'img.icons8.com',
-        port: '',
         pathname: '/ios/200/menu--v1.png',
       },
       {
         protocol: 'https',
         hostname: 'img.icons8.com',
-        port: '',
         pathname: '/ios/500/search--v1.png'
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.icons8.com',
+        pathname: '/ios/500/download--v1.png'
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.icons8.com',
+        pathname: '/ios/500/arrow--v1.png'
       },
       // {
       //   protocol: '',
