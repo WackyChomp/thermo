@@ -7,6 +7,8 @@ import CollectionCard from '@/components/CollectionCard'
 
 // This is the "Home" child that gets rendered in (root) layout.tsx
 
+export const revalidate = 900     // update server side rendering
+
 export default async function Home() {
   const collections = await getCollections({
     query: '',

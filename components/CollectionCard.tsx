@@ -15,7 +15,7 @@ const CollectionCard = ({ id, title, image, downloadNumber } : Props) => {
     <Card className='w-full max-w-fit border-0 bg-red-900 m-4 sm:max-w-[350px]'>
       <Link href={`/collection/${id}`}>
       <CardHeader className='flex-center flex-col gap-2.5'>
-        <div className="h-fit w-full">
+        <div className="w-[300px] h-[300px]">
           <Image
             src={image}
             alt={title}

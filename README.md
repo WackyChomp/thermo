@@ -51,8 +51,7 @@ npm create sanity@latest
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup">Setup</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -74,6 +73,27 @@ Here are some frameworks/libraries used in this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Setup
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/WackyChomp/thermo.git
+   ```
+2. Install NPM packages into root directory or same directory as "<u>package.json</u>"
+   ```sh
+   npm install
+   ```
+3. Running on local computer
+   ```
+    [Run command in root directory] --- npm run dev
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
