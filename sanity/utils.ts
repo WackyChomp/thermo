@@ -1,4 +1,7 @@
 
+import qs from 'query-string';      //
+
+
 {/*
 https://www.sanity.io/docs/how-queries-work
 
@@ -12,8 +15,6 @@ interface BuildQueryParams {
   page: number;
   perPage?: number;
 }
-
-
 
 export function buildQuery(params: BuildQueryParams){
   const { type, query, category, page=1, perPage=10 } = params;
@@ -39,4 +40,25 @@ export function buildQuery(params: BuildQueryParams){
     return `${conditions[0]}[${offset}...${limit}]`;
   }
 
+}
+
+
+interface UrlQueryParams {
+  params: string;
+  key: string;
+  value: string | null;
+}
+
+export function formUrlQuery({ params, key, value } : UrlQueryParams){
+  const currentUrl = qs.parse(params);
+
+  currentUrl[key] = value;
+  console.log(currentUrl, key, value)
+  
+  return qs.stringifyUrl(
+    { url: window.location.pathname , query:currentUrl },
+    { skipNull: true }
+  )
+
+  
 }
