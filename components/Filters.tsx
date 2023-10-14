@@ -3,7 +3,7 @@ import { useState } from "react";
 import { formUrlQuery } from "@/sanity/utils";
 import { useSearchParams, useRouter } from 'next/navigation'
 
-const links = ['All', 'Analysis', 'Designs', 'Tools']
+const links = ['All', 'Analysis', 'Designs', 'Tools', 'Other']
 
 
 

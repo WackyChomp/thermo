@@ -9,10 +9,16 @@ import CollectionCard from '@/components/CollectionCard'
 
 export const revalidate = 900     // update server side rendering
 
-export default async function Home() {
+interface Props{
+  searchParams: { [key: string]: string | undefined }
+}
+
+export default async function Home({ searchParams } : Props) {
+  console.log(searchParams)
+
   const collections = await getCollections({
     query: '',
-    category: '',
+    category: searchParams?.category || '',
     page: '1',
   })
   console.log(collections)
