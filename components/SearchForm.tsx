@@ -3,12 +3,45 @@
 import Image from 'next/image'
 import React from 'react'
 import { Input } from "@/components/ui/input"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { formUrlQuery } from '@/sanity/utils'
+import { useSearchParams, useRouter, usePathname } from 'next/navigation'
 
 type Props = {}
 
 const SearchForm = (props: Props) => {
   const [search, setSearch] = useState('');
+
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const delayDebounceFunction = setTimeout(() => {
+    //console.log(search)
+
+    let newUrl = '';
+
+      if(search){
+        newUrl = formUrlQuery({
+          params: searchParams.toString(),
+          key: 'query',
+          value: search,
+        })
+      } else{       // updates Url when removing search query
+        newUrl = formUrlQuery({
+          params: searchParams.toString(),
+          keysToRemove: ['query']
+        })
+      }
+
+      router.push(newUrl, {scroll:false})
+    }, 300)
+  
+    return () => clearTimeout(delayDebounceFunction)
+  }, [search])
+  
+
   return (
     <form className='flex-center mx-auto mt-10 w-full sm:mt-10 sm:px-5'>
       <label className='flex-center relative w-full max-w-3xl'>
