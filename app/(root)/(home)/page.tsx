@@ -4,6 +4,7 @@ import SearchForm from '@/components/SearchForm'
 import Filters from '@/components/Filters'
 import { getCollections } from '@/sanity/actions'
 import CollectionCard from '@/components/CollectionCard'
+import Header from '@/components/Header'
 
 // This is the "Home" child that gets rendered in (root) layout.tsx
 
@@ -40,7 +41,13 @@ export default async function Home({ searchParams } : Props) {
       </div>
 
       <section className='flex-center mt-6 w-full flex-col sm:mt-20'>
-        Collections
+        Heading Here
+        <Header
+          category= {searchParams?.category || '' }
+          query= {searchParams?.query || ''}
+        />
+
+        Collections Section Here
         <div className="mt-12 flex w-full flex-wrap justify-center gap-16 sm:justify-start">
           {collections?.length > 0 ? (
             collections.map((collection:any) => (
