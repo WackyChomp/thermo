@@ -40,35 +40,38 @@ export default async function Home({ searchParams } : Props) {
 
       </div>
 
-      <section className='flex-center mt-6 w-full flex-col sm:mt-20'>
-        Heading Here
-        <Header
-          category= {searchParams?.category || '' }
-          query= {searchParams?.query || ''}
-        />
 
-        Collections Section Here
-        <div className="mt-12 flex w-full flex-wrap justify-center gap-16 sm:justify-start">
-          {collections?.length > 0 ? (
-            collections.map((collection:any) => (
-              <div>
-                <div>CollectionCard Component</div>
-                <CollectionCard
-                  key={collection._id}
-                  title={collection.title}
-                  id={collection._id}
-                  image={collection.image}
-                  downloadNumber={collection.views}
-                />
-              </div>
-            ))
-          ): (
-            <p className='body-regular text-white-400'>
-              No collections found
-            </p>
-          )}
-        </div>
-      </section>
+      {(searchParams?.query || searchParams?.category) && (
+        <section className='flex-center mt-6 w-full flex-col sm:mt-20'>
+          Heading Here
+          <Header
+            category= {searchParams?.category || '' }
+            query= {searchParams?.query || ''}
+          />
+
+          Collections Section Here
+          <div className="mt-12 flex w-full flex-wrap justify-center gap-16 sm:justify-start">
+            {collections?.length > 0 ? (
+              collections.map((collection:any) => (
+                <div>
+                  <div>CollectionCard Component</div>
+                  <CollectionCard
+                    key={collection._id}
+                    title={collection.title}
+                    id={collection._id}
+                    image={collection.image}
+                    downloadNumber={collection.views}
+                  />
+                </div>
+              ))
+            ): (
+              <p className='body-regular text-white-400'>
+                No collections found
+              </p>
+            )}
+          </div>
+        </section>
+      )}
       
       <div className="paddings">
         <div className="bg-yellow-300 rounded-xl pt-5">
