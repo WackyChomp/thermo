@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import SearchForm from '@/components/SearchForm'
 import Filters from '@/components/Filters'
-import { getCollections } from '@/sanity/actions'
+import { getCollections, getCollectionsPlaylist } from '@/sanity/actions'
 import CollectionCard from '@/components/CollectionCard'
 import Header from '@/components/Header'
 
@@ -14,15 +14,19 @@ interface Props{
   searchParams: { [key: string]: string | undefined }
 }
 
+
 export default async function Home({ searchParams } : Props) {
   console.log(searchParams)
 
   const collections = await getCollections({
-    query: '',
+    query: searchParams?.query || '',
     category: searchParams?.category || '',
     page: '1',
   })
   console.log(collections)
+
+  const collectionsPlaylist = await getCollectionsPlaylist();
+  console.log(collectionsPlaylist)
 
   return (
     <main>
@@ -72,6 +76,26 @@ export default async function Home({ searchParams } : Props) {
           </div>
         </section>
       )}
+
+      {collectionsPlaylist.map((item: any) => (
+        <section key={item._id} className='flex-center mt-6 w-full flex-col sm:mt-20'>
+          <h1 className='heading3 self-start text-blue-500'>{item.title}</h1>
+          <div className="mt-12 flex w-full flex-wrap justify-center gap-16 sm:justify-start">
+
+              {item.collections.map((collection:any) => (
+                <CollectionCard
+                  key={collection._id}
+                  title={collection.title}
+                  id={collection._id}
+                  image={collection.image}
+                  downloadNumber={collection.views}
+                />
+              ))}
+              
+          </div>
+        </section>
+      ))}
+
       
       <div className="paddings">
         <div className="bg-yellow-300 rounded-xl pt-5">

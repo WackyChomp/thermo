@@ -36,3 +36,28 @@ export const getCollections = async (params: GetCollectionsParams) => {
     console.log(error)
   }
 }
+
+
+export const getCollectionsPlaylist = async (params: GetCollectionsParams) => {
+  try {
+    const collections = await readClient.fetch(
+      groq`*[_type == "collectionPlaylist"]{
+        _id,
+        title,
+        collections[0...6]->{
+          title,
+          _id,
+          downloadLink,
+          'image' : poster.asset -> url,
+          views,
+          category
+        }
+      }`
+    );
+    
+    return collections;
+
+  } catch (error) {
+    console.log(error)
+  }
+}
