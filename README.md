@@ -63,7 +63,18 @@ npm create sanity@latest
 </details>
 
 
-## Built With
+## About The Project
+
+When creating a website, there are lots of brainstorming and ideas flowing all round. Some suggestions and features might be unfeesible to deliver in a timely matter or impractical due to technical limitations.
+
+Overall, it is important to keep in mind about the user experience.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
 
 Here are some frameworks/libraries used in this project:
 * [![TypeScript][TypeScript]][TypeScript-url]
@@ -110,6 +121,23 @@ Here are some frameworks/libraries used in this project:
     - [ ] 
 
 See the [open issues](https://github.com/WackyChomp/thermo/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Have suggestions or ideas that would help improve? Go on ahead to fork the repo and create a pull request. 
+<br>
+✨Be sure to open an issue with the tag "enhancement" ✨
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

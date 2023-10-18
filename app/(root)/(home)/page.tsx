@@ -65,6 +65,7 @@ export default async function Home({ searchParams } : Props) {
                     id={collection._id}
                     image={collection.image}
                     downloadNumber={collection.views}
+                    downloadLink={collection.downloadLink}
                   />
                 </div>
               ))
@@ -89,6 +90,7 @@ export default async function Home({ searchParams } : Props) {
                   id={collection._id}
                   image={collection.image}
                   downloadNumber={collection.views}
+                  downloadLink={collection.downloadLink}
                 />
               ))}
               

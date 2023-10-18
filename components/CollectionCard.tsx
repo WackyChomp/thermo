@@ -8,12 +8,13 @@ type Props = {
   title: string;
   image: string;
   downloadNumber: number;
+  downloadLink: string;
 }
 
-const CollectionCard = ({ id, title, image, downloadNumber } : Props) => {
+const CollectionCard = ({ id, title, image, downloadNumber, downloadLink } : Props) => {
   return (
     <Card className='w-full max-w-fit border-0 bg-red-900 m-4 sm:max-w-[350px]'>
-      <Link href={`/collection/${id}`}>
+      <Link href={downloadLink} target='_blank'>
       <CardHeader className='flex-center flex-col gap-2.5'>
         <div className="w-[300px] h-[300px]">
           <Image
@@ -38,7 +39,7 @@ const CollectionCard = ({ id, title, image, downloadNumber } : Props) => {
           />
           {downloadNumber}
         </div>
-        <Link href={`/collection/${id}`} className='flex-center body-semibold gap-1.5 text-blue-500'>
+        <Link href={downloadLink} target='_blank' className='flex-center body-semibold gap-1.5 text-blue-500'>
           Download Now
           <Image 
             src='https://img.icons8.com/ios/500/arrow--v1.png'
